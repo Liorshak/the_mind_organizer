@@ -15,8 +15,8 @@ color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 97vw;
-    height: 180vh;
+    width: 99.9%;
+    height: 200vh;
     margin: 0px;
     /* justify-content: space-around; */
 }
@@ -63,7 +63,26 @@ color:white;
 #dragArea {
     margin-top: 20px;
     border-top: 3px solid rgba(255, 255, 255, 0.397);
-    border-bottom: 3px solid rgba(255, 255, 255, 0.397);;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.397);
     width: 100%;
-    height: 72vh;
+    height: 78vh;
+    text-align:center;
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+#arrowPageDown {
+    font-size:2em;
+    color:lightgray;
+    text-align:center;
+    
+    /* position: absolute;
+    bottom: 5px;
+    left: 49.6%; */
+}
+
+#arrowPageUp{
+    font-size:2em;
+    color:lightgray;
+    text-align:center;
 }
