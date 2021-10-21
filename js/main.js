@@ -12,8 +12,6 @@ let Bubble = class {
     }
 }
 
-
-
 // general stuff
 
 // collect elements
