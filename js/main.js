@@ -1,6 +1,18 @@
 // part 1
 
 // class Bubble (id, text, done, hidden, type, priority)
+let Bubble = class {
+    constructor(id, text, done, hidden, type, priority) {
+        this.id = id;
+        this.text = text;
+        this.done = done;
+        this.hidden = hidden;
+        this.type = type;
+        this.priority = priority;
+    }
+}
+
+
 
 // general stuff
 
